@@ -1,0 +1,16 @@
+@use '../variables'
+
+#portfolio
+    display: flex 
+    flex-wrap: wrap // quebrar as linhas
+    padding: 3rem
+    gap: 3rem // espaçamento entre os elementos 
+
+    h1 // aninhar os estilos no mesmo bloco sem precisar de {}
+        width: 100%
+        font-size: 5rem
+        margin-bottom: 4rem
+        background: variables.$gradient
+        -webkit-background-clip: text
+        -webkit-text-fill-color: transparent
+        // degrade no texto e não no fundo 
